@@ -1,0 +1,36 @@
+[0.003s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "com.intellij.util.lang.PathClassLoader"). To use archived non-system classes, this property must not be set
+2025-04-29 18:57:03,484 [   2454]   WARN - #c.i.i.u.UIThemeBean - Do not set theme id in JSON (value=4b6007f7-b596-4ee2-96f9-968d3d3eb392)
+2025-04-29 18:57:03,580 [   2550]   WARN - #com.github.shubham076.themes.listeners.MyApplicationActivationListener - Don't forget to remove all non-needed sample code files with their corresponding registration entries in `plugin.xml`.
+2025-04-29 18:57:04,824 [   3794]   WARN - #com.github.shubham076.themes.toolWindow.MyToolWindowFactory - Don't forget to remove all non-needed sample code files with their corresponding registration entries in `plugin.xml`.
+2025-04-29 18:57:05,709 [   4679]   WARN - #c.i.s.c.i.StationSocketConnectionLoop - Discovery connection failed with NoSuchFileException (/run/user/1000/jb.station.sock)
+2025-04-29 18:57:06,253 [   5223]   WARN - #c.i.i.SystemHealthMonitor - issue detected: ide.script.launcher.used (ignored)
+2025-04-29 18:57:06,447 [   5417]   WARN - #c.i.m.l.c.q.QuotaManager2 - Quota refill state was updated by another thread, wanted to update to Error(exception=java.lang.IllegalStateException: Returned result does not match the condition, previous=null)
+Initialize logger: level=10 file='/home/cool29/jcef_3376766.log'
+2025-04-29 18:57:12,935 [  11905]   WARN - #c.i.u.i.p.ProjectIndexableFilesFilterHealthCheck - Following files are indexable but they were NOT found in filter. Errors count: 1. Examples:
+file id=38479 path=/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24_2/.idea/.gitignore
+2025-04-29 18:57:40,262 [  39232]   WARN - #c.i.c.ComponentStoreImpl - Scheme file "Project_Default.xml" is not loaded because defines duplicated name "Project Default"
+2025-04-29 18:58:06,979 [  65949]   WARN - #com.github.shubham076.themes.listeners.MyApplicationActivationListener - Don't forget to remove all non-needed sample code files with their corresponding registration entries in `plugin.xml`.
+2025-04-29 18:58:12,119 [  71089]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - Error processing request. No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:177487:11)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:181597:189)
+    at _ProjectService.ensureDefaultProjectForFile (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:181592:75)
+    at IOSession.getFileAndProjectWorker (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:186627:77)
+    at IOSession.getFileAndProject (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:186613:17)
+    at IOSession.provideInlayHints (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:186387:36)
+    at provideInlayHints (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:185544:43)
+    at /home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:187569:69
+    at IOSession.executeWithRequestId (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IOSession.executeCommand (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IOSession.onMessage (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:187611:51)
+    at Interface.<anonymous> (/home/cool29/cool29data/dev_web_pets/TEST_PROJECTS/test_mebot24/node_modules/typescript/lib/tsserver.js:189196:14)
+    at Interface.emit (node:events:524:28)
+    at [_onLine] [as _onLine] (node:internal/readline/interface:416:12)
+    at [_normalWrite] [as _normalWrite] (node:internal/readline/interface:610:22)
+    at Socket.ondata (node:internal/readline/interface:243:23)
+    at Socket.emit (node:events:536:35)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-29 18:58:30,076 [  89046]   WARN - #com.github.shubham076.themes.listeners.MyApplicationActivationListener - Don't forget to remove all non-needed sample code files with their corresponding registration entries in `plugin.xml`.
