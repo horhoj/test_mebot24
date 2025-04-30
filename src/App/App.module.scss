@@ -1,11 +1,89 @@
 .App {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
-  width: 100%;
-  padding: 15px;
-  background-color: white;
+  padding: 20px;
+  height: 100%;
 }
+
+.header {
+  padding: 0 60px;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  min-height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr;
+
+  & > div:nth-child(1) {
+    padding-left: 35px;
+  }
+}
+
+.addBtn {
+
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='50' ry='50' stroke='%23D2DAE6' stroke-width='1' stroke-dasharray='8' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-radius: 9999px;
+  display: flex;
+  width: calc(100% - 40px);
+  min-height: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 20px 20px 0 20px;
+  background-color: rgba(255, 255, 255, 0);
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+
+.content {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+}
+
+.CallCardList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px 14px 100px 20px;
+  margin-right: 6px;
+  flex: 1 1 auto;
+  overflow: auto;
+  min-height: 0;
+
+  & {
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #41434b;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 0, 0, 0);
+    }
+  }
+}
+
